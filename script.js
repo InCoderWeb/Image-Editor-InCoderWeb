@@ -110,6 +110,7 @@ const uploadFile = () => {
         })
     } else {
         dragOrDropContainer.classList.remove("hide")
+        dragOrDropContainer.classList.remove("drag")
         dragBoxText.innerText = "Drag & Drop to Upload File"
         alert("This File is nat valid. Please choose another file and try again.")
     }
